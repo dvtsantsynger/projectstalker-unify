@@ -89,15 +89,15 @@ namespace UniLayouts.MVP {
             }
         }
 
-        public new TMP_FontAsset[] Fonts {
+        public override TMP_FontAsset[] Fonts {
             get { return fonts; }
         }
 
-        public new UIViewGroup RootView {
+        public override UIViewGroup RootView {
             get { return rootView; }
         }
 
-        public new GameObject UIObject {
+        public override GameObject UIObject {
             get { return activityUI; }
         }
     }
