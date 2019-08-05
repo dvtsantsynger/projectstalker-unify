@@ -10,7 +10,7 @@
     "rx",
     "network"
   ],
-  "dependencies": {},
+  "dependencies": { "com.unity.textmeshpro": "2.0.0" },
   "repository": {
     "type": "git",
     "url": "https://github.com/dvtsantsynger/projectstalker-unify.git"
