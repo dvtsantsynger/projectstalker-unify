@@ -1,15 +1,14 @@
-﻿using UniLayouts.Views;
+﻿using UniLayouts.MVP;
+using UniLayouts.Views;
 using UnityEditor;
 using UnityEngine;
 
-namespace UniLayouts { 
-    [CustomEditor(typeof(MVP.Activity))]
-    public class MvpActivityEditor : Editor
+[CustomEditor(typeof(Activity))]
+public class MvpActivityEditor : Editor
+{
+    public override void OnInspectorGUI()
     {
-        public override void OnInspectorGUI()
-        {
-            UIViewGroup root = ((MVP.Activity)target).RootView;
-            EditorGUILayout.HelpBox("Layout UI Designer", MessageType.Info);
-        }
+        UIViewGroup root = ((Activity)target).RootView;
+        EditorGUILayout.HelpBox("Layout UI Designer", MessageType.Info);
     }
 }
