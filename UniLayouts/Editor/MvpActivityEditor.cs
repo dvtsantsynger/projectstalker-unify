@@ -3,7 +3,7 @@ using UniLayouts.Views;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(Activity))]
+[CustomEditor(typeof(Activity), true)]
 public class MvpActivityEditor : Editor
 {
     public override void OnInspectorGUI()
