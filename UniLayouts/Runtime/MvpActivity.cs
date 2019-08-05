@@ -44,7 +44,7 @@ namespace UniLayouts.MVP {
         }
 
         private void Start() {
-            activityUI = new GameObject("Editor UI");
+            activityUI = new GameObject(GetType().Name);
             activityUI.transform.SetParent(transform);
 
             // Canvas
