@@ -8,7 +8,7 @@ using UnityEngine.UI;
 namespace UniLayouts.MVP { 
     public enum Orientation { Horizontal, Vertical }
 
-    public abstract class MvpActivity<V, P> : MonoBehaviour, Activity where V : MvpView where P : MvpPresenter<V>, new() {
+    public abstract class MvpActivity<V, P> : Activity where V : MvpView where P : MvpPresenter<V>, new() {
 
         [SerializeField]
         private TMP_FontAsset[] fonts;
@@ -89,15 +89,15 @@ namespace UniLayouts.MVP {
             }
         }
 
-        public TMP_FontAsset[] Fonts {
+        public new TMP_FontAsset[] Fonts {
             get { return fonts; }
         }
 
-        public UIViewGroup RootView {
+        public new UIViewGroup RootView {
             get { return rootView; }
         }
 
-        public GameObject UIObject {
+        public new GameObject UIObject {
             get { return activityUI; }
         }
     }
