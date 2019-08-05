@@ -1,0 +1,15 @@
+{
+    "name": "Unity.UniDownloader",
+    "references": [
+        "GUID:9853444755214dd44b0331284dc730b9"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
