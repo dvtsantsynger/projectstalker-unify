@@ -1,0 +1,8 @@
+{
+    "name": "DotNetty",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}
